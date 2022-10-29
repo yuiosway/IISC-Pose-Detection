@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pose Detection</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-core"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-converter"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-webgl"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/pose-detection"></script>
+    </head>
+    <body>
+        <div class="container">
+            <img id="image" class="imageContainer" />
+            <h1 class="header">Select File:</h1>          
+            <input class = "uploadImage" type="file" name="myImage" id="imageInput" />
+            <br/> 
+            <button class = "submitButton">
+                Show pose
+            </button>
+        </div>
+        <script src="./app.js"></script>
+    </body>
+</html>
