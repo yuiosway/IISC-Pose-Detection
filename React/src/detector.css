@@ -1,0 +1,20 @@
+.imageUpload {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  font-size: 200px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.showPose {
+  background-color: #aa0404;
+  border: 2px black;
+  color: white;
+  padding: 16px 132px;
+  font-size: 200px;
+  text-decoration: none;
+  margin-top: 64px;
+  cursor: pointer;
+}
